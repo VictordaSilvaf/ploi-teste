@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply h-full bg-white;
+}
+
+body {
+  @apply h-full;
+}
+
+.selected-item {
+  background-color: #f0f0f0; /* Estilo para destacar o item selecionado */
+  border: 2px solid #007bff; 
+}
+
+.input-invisible:focus {
+  box-shadow: none !important;
+}
+
+.searchBox  {
+  width: 100%;
+}
+
+.searchBox {
+  @apply focus:ring-0
+}
+
+.search-wrapper span {
+  @apply bg-indigo-600
+}
+
+.highlightOption {
+  @apply bg-indigo-600 
+}
+
+.multiSelectContainer li {
+  @apply hover:bg-indigo-600
+}
+
+.multi-tags  {
+  @apply border-0 mt-5
+}
+
+.searchWrapper {
+  border: none;
+}
